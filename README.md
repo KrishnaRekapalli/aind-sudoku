@@ -3,12 +3,12 @@
 
 #### This is the first project of a series of projects in Artificial Intelligence Nanodegree with Udacity. 
 
-#### I forked the existing code and implemented the following strategies
-   elimination  
-   only choice 
-   naked twins
-   search
-   diagonal sudoku 
+#### I forked the existing code and implemented the following strategies:
+   * elimination  
+   * only choice 
+   * naked twins
+   * search
+   * diagonal sudoku 
    
 #### All the implementations are in solution.py
 
