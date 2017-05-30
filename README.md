@@ -1,11 +1,16 @@
 # Artificial Intelligence Nanodegree
 ## Introductory Project: Diagonal Sudoku Solver
 
-# Question 1 (Naked Twins)
+#### This is the first project of a series of projects in Artificial Intelligence Nanodegree with Udacity. I forked the existing code and implemented the naked twins strategy and diagonal sudoku functionality
+
+
+
+
+# Naked Twins
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A: Similar to the elimination and only choice strategies, we use the naked twins strategy to reduce the sudoku to a simpler form. If in any unit i.e. square, row, column or diagonal there are two boxes with same probable twin values, then we have to eliminate the possibility of any of these two values from the rest of the boxes in the unit. This functionality is coded as a function 'naked_twins' and the function is executed in 'reduce_sudoku' function after the 'elimination' and 'only choice' strategies.
 
-# Question 2 (Diagonal Sudoku)
+# Diagonal Sudoku
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A: Along with the square units, row and column units, now we will have diagonal units. We first create the diagonal units and then add them to the 'unitlist'. Now every cell in sudoku will have 26 peers. As the code is written in modular form, this change will be enough to make sure that we are solving the diagonal sudoku.
 
